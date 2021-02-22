@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.687164">
-<testcase classname="cook and chef Login feature" name="cook and chef Login scenario" time="16.817616">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.849173">
+<testcase classname="cook and chef Login feature" name="cook and chef Login scenario" time="17.849173">
 <system-out><![CDATA[Given user is already on login Page.........................................passed
 When title of login page is Login Title.....................................passed
-Then user enters username "Test@yopmail.com" and enters password "Welcome1@".passed
+Then user enters username  and enters password..............................passed
 Then user clicks on login button............................................passed
 Then user is on homepage....................................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="cook and chef Login feature" name="cook and chef Login scenario 2" time="12.869548">
-<failure message="junit.framework.ComparisonFailure: expected:&lt;CookandChef[ | Cook Dashboard]&gt; but was:&lt;CookandChef[]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefination.LoginStepDefination.user_is_on_homepage(LoginStepDefination.java:58)&#13;&#10;&#9;at ✽.Then user is on homepage(E:/Project/cookandchefBDDframework/src/main/java/Features/login.feature:15)&#13;&#10;"><![CDATA[Given user is already on login Page.........................................passed
-When title of login page is Login Title.....................................passed
-Then user enters username "test123@yopmail.com" and enters password "Welcome1@".passed
-Then user clicks on login button............................................passed
-Then user is on homepage....................................................failed
-
-StackTrace:
-junit.framework.ComparisonFailure: expected:<CookandChef[ | Cook Dashboard]> but was:<CookandChef[]>
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at stepDefination.LoginStepDefination.user_is_on_homepage(LoginStepDefination.java:58)
-	at ✽.Then user is on homepage(E:/Project/cookandchefBDDframework/src/main/java/Features/login.feature:15)
-]]></failure>
 </testcase>
 </testsuite>
