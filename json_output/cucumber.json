@@ -1,106 +1,16 @@
 [
   {
-    "line": 1,
-    "elements": [
-      {
-        "line": 2,
-        "name": "cook and chef Login scenario",
-        "description": "",
-        "id": "cook-and-chef-login-feature;cook-and-chef-login-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 11720886600,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user is already on login Page",
-            "match": {
-              "location": "LoginStepDefination_withmap.user_is_already_on_login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1946971800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "title of login page is Login Title",
-            "match": {
-              "location": "LoginStepDefination_withmap.title_of_login_page_is_Login_Title()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 520460300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username  and enters password",
-            "match": {
-              "location": "LoginStepDefination_withmap.user_enters_username_and_enters_password(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "password"
-                ],
-                "line": 6
-              },
-              {
-                "cells": [
-                  "Test@yopmail.com",
-                  "Welcome1@"
-                ],
-                "line": 7
-              },
-              {
-                "cells": [
-                  "test123@yopmail.com",
-                  "Welcome1@"
-                ],
-                "line": 8
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 482962900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "LoginStepDefination_withmap.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5312700,
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003cCookandChef[ | Cook Dashboard]\u003e but was:\u003cCookandChef[]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefination.LoginStepDefination_withmap.user_is_on_homepage(LoginStepDefination_withmap.java:59)\r\n\tat ✽.Then user is on homepage(E:/Project/cookandchefBDDframework/src/main/java/Features/login_mapdata.feature:10)\r\n",
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "user is on homepage",
-            "match": {
-              "location": "LoginStepDefination_withmap.user_is_on_homepage()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "cook and chef Login feature",
+    "line": 2,
+    "name": "Tag feture cases",
     "description": "",
-    "id": "cook-and-chef-login-feature",
+    "id": "tag-feture-cases",
     "keyword": "Feature",
-    "uri": "E:/Project/cookandchefBDDframework/src/main/java/Features/login_mapdata.feature"
+    "uri": "E:/Project/cookandchefBDDframework/src/main/java/Features/tagging.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
   }
 ]
